@@ -1,0 +1,9 @@
+#import <Foundation/Foundation.h>
+
+int main() {
+    @autoreleasepool {
+        NSDate *currentDate = [NSDate date];
+        NSLog(@"Current Date: %@", currentDate);
+    }
+    return 0;
+}
